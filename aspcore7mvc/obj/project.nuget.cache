@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "KDxpN9NffAU9w4zYl9PwfrgcmDwRcE5+ws/jS21HU4AAQxlBt55hYaJJPdpQbG7ZUjOI1r4YTXPZK+oXR9mkYA==",
+  "dgSpecHash": "TMtsDkWQ3FW6EiFrxrPDauL/BXUiCH5PwqQ16CZkmGC4LgmYch1NvmRn4fJETthaN6Z3NfYR+taaTHEJvqzYsw==",
   "success": true,
   "projectFilePath": "C:\\Users\\santosh.rauniyar\\source\\repos\\aspcore7mvc\\aspcore7mvc\\aspcore7mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\santosh.rauniyar\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\santosh.rauniyar\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\santosh.rauniyar\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
     "C:\\Users\\santosh.rauniyar\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\santosh.rauniyar\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\santosh.rauniyar\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
@@ -72,6 +73,7 @@
     "C:\\Users\\santosh.rauniyar\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\santosh.rauniyar\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\santosh.rauniyar\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\santosh.rauniyar\\.nuget\\packages\\nest\\7.17.5\\nest.7.17.5.nupkg.sha512",
     "C:\\Users\\santosh.rauniyar\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\santosh.rauniyar\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\santosh.rauniyar\\.nuget\\packages\\nuget.common\\6.3.1\\nuget.common.6.3.1.nupkg.sha512",

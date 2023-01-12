@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\santosh.rauniyar\source\repos\aspcore7mvc\aspcore7mvc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/santosh.rauniyar/source/repos/aspcore7mvc/aspcore7mvc/Views/PersonLocation/AddLocation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uTG9jYXRpb25cQWRkTG9jYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/santosh.rauniyar/source/repos/aspcore7mvc/aspcore7mvc/Views/PersonLocation/AllLocation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uTG9jYXRpb25cQWxsTG9jYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/santosh.rauniyar/source/repos/aspcore7mvc/aspcore7mvc/Views/PersonLocation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uTG9jYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/santosh.rauniyar/source/repos/aspcore7mvc/aspcore7mvc/Views/Person/AddPerson.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEFkZFBlcnNvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/santosh.rauniyar/source/repos/aspcore7mvc/aspcore7mvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/santosh.rauniyar/source/repos/aspcore7mvc/aspcore7mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/santosh.rauniyar/source/repos/aspcore7mvc/aspcore7mvc/Views/_ViewImports.cshtml]

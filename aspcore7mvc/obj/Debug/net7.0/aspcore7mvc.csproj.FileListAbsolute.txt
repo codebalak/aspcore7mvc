@@ -271,3 +271,5 @@ C:\Users\santosh.rauniyar\source\repos\aspcore7mvc\aspcore7mvc\bin\Debug\net7.0\
 C:\Users\santosh.rauniyar\source\repos\aspcore7mvc\aspcore7mvc\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\santosh.rauniyar\source\repos\aspcore7mvc\aspcore7mvc\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\santosh.rauniyar\source\repos\aspcore7mvc\aspcore7mvc\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\santosh.rauniyar\source\repos\aspcore7mvc\aspcore7mvc\bin\Debug\net7.0\Elasticsearch.Net.dll
+C:\Users\santosh.rauniyar\source\repos\aspcore7mvc\aspcore7mvc\bin\Debug\net7.0\Nest.dll

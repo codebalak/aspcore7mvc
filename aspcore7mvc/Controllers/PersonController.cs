@@ -10,6 +10,7 @@ namespace aspcore7mvc.Controllers
         public PersonController(DatabaseContext ctx) 
         {
             _ctx = ctx;//deppendency injection
+           
         }
         public IActionResult Index()
         {
@@ -35,7 +36,7 @@ namespace aspcore7mvc.Controllers
             {
                    _ctx.Person.Add(person);
                     _ctx.SaveChanges();
-                TempData["msg"] = "Added Successfully"; ; 
+                TempData["msg"] = "Added Successfully"; 
                 return RedirectToAction("AddPerson");
             }
             catch(Exception ex)
@@ -48,7 +49,10 @@ namespace aspcore7mvc.Controllers
 
         public IActionResult DisplayAllPersons()
         {
+
             var persons = _ctx.Person.ToList();
+           // PersonRepo p = new PersonRepo();
+;            //var persons = p.GetPersons();
             return View(persons);
         }
 

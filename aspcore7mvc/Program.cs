@@ -8,7 +8,8 @@ builder.Services.AddControllersWithViews();
 //whatever serviices we need we will add here
 //to connect with database \
 builder.Services.AddDbContext<DatabaseContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("conn"))//same name as appsetings.json object
+options.UseSqlServer(builder.Configuration.GetConnectionString("conn"))//same name as appsetings.json object &  we can also pass
+                                                                       //connection string here
 );
 
 

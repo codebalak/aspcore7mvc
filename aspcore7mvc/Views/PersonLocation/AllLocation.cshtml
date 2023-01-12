@@ -1,0 +1,44 @@
+﻿@model IEnumerable<aspcore7mvc.Models.Domain.PersonLocation>
+@{
+
+}
+
+<div class="mt-2">
+    <div class="row">
+        <h2>Person's Travel Location'</h2>
+        @if (TempData["msg"] != null)
+        {
+            <div class="mb-3">
+                @TempData["msg"]
+            </div>
+        }
+
+        <div class="col-md-4">
+            <a href="/PersonLocation/AddLocation" class="btn btn-primary">Add Location</a>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <td>Person</td>
+                    <td>Travel Location Name</td>
+                    <td>Travel Date</td>
+                    <td>Action</td>
+                </tr>
+            </thead>
+
+            <tbody>
+               
+                @foreach (var locations in ViewBag.Locationlist)
+                {
+                    <tr>
+                        <td>@locations.Name</td>
+                        <td>@locations.LocationName</td>
+                        <td>@locations.LocDate</td>
+                        <td><a href="/Person/Edit/@locations.Id" class="btn btn-sm btn-success">Edit</a> <a class="btn btn-sm btn-danger" href="/Person/Delete/@locations.Id">Delete</a></td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

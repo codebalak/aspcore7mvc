@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "jBw7KqoLvcmCyPalvfQqF968F1ArbcsI0pIn/XhpJPc=",
+  "Source": "aspcore7mvc",
+  "BasePath": "_content/aspcore7mvc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "aspcore7mvc\\wwwroot",
+      "Source": "aspcore7mvc",
+      "ContentRoot": "C:\\Users\\santosh.rauniyar\\source\\repos\\aspcore7mvc\\aspcore7mvc\\wwwroot\\",
+      "BasePath": "_content/aspcore7mvc",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\santosh.rauniyar\\source\\repos\\aspcore7mvc\\aspcore7mvc\\wwwroot\\favicon.ico",
+      "SourceId": "aspcore7mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\santosh.rauniyar\\source\\repos\\aspcore7mvc\\aspcore7mvc\\wwwroot\\",
+      "BasePath": "_content/aspcore7mvc",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}

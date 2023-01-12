@@ -1,0 +1,41 @@
+﻿@model IEnumerable<aspcore7mvc.Models.Domain.Person>
+@{
+
+}
+
+<div class="mt-2">
+    <div class="row">
+        <h2>Person</h2>
+        @if (TempData["msg"] != null)
+        {
+            <div class="mb-3">
+                @TempData["msg"]
+            </div>
+        }
+
+        <div class="col-md-4">
+            <a href="/Person/AddPerson" class="btn btn-primary">Add Person</a>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td>Action</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var persons in Model)
+                {
+                    <tr>
+                        <td>@persons.Name</td>
+                        <td>@persons.Email</td>
+                        <td><a href="/Person/Edit/@persons.Id" class="btn btn-sm btn-success">Edit</a> <a class="btn btn-sm btn-danger" href="/Person/Delete/@persons.Id">Delete</a></td>
+                        
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

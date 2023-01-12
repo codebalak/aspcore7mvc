@@ -19,7 +19,7 @@ namespace aspcore7mvc.Models.Domain
         public DateTime CreatedAt { get; set; }
 
         public DateTime LastModifiedAt { get; set;}
-        public Person  Name { get; set; }
+        public Person?  Name { get; set; }
         //public string Person Name { get; set; }
     }
 }

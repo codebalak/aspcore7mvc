@@ -1,0 +1,47 @@
+﻿@model aspcore7mvc.Models.Domain.PersonLocation;
+@{
+    // Layout = "_Layout";
+}
+
+<div class="container">
+
+
+    <form asp-action="EditLocation">
+        <div asp-validation-summary="ModelOnly"></div>
+        <input type="hidden" asp-for="Id" />
+        <h2>Add Person's Location</h2>
+
+        <div class="mb-3">
+            <label asp-for="PersonID">Select Person</label>
+            <select asp-for="PersonID" class="form-control"  >
+               <option>Select Person</option>
+                @foreach (var list in ViewBag.Personslist)
+                {
+                        <option value="@list.Id" > @list.Name   </option>
+                }
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="LocationName" class="form-label">Location Name</label>
+            <input type="text" asp-for="LocationName" class="form-control">
+            <span class="text-danger" asp-validation-for="LocationName"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="LocDate" class="form-label">Location Date</label>
+            <input type="datetime-local" asp-for="LocDate" class="form-control">
+            <span class="text-danger" asp-validation-for="LocDate"></span>
+
+        </div>
+
+        @if (TempData["msg"] != null)
+        {
+                <div class="mb-3">
+                @TempData["msg"]
+                </div>
+        }
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a href="/PersonLocation" class="btn btn-primary">All Location</a>
+    </form>
+</div>

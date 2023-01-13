@@ -46,7 +46,49 @@ namespace aspcore7mvc.Repository
 
         }
 
+                public PersonLocation GetDetailsById(int id)
+        {
+            var prlocation = _context.PersonLocation.Find(id);
+            return prlocation;
 
+        }
+
+                public bool DestroyPersonLocation(int? id)
+        {
+            try
+            {
+                var prlocation = _context.PersonLocation.Find(id);
+                if (prlocation != null) {
+                    _context.PersonLocation.Remove(prlocation);
+                    _context.SaveChanges();
+                    return true;
+
+              }
+                return false;
+                
+            }
+            catch(Exception)
+            {
+                return false;
+            }
+        }
+
+
+        public bool UpdateLocation(PersonLocation prloc)
+        {
+            try
+            {
+
+                _context.PersonLocation.Update(prloc);
+                _context.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+
+        }
 
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jBw7KqoLvcmCyPalvfQqF968F1ArbcsI0pIn/XhpJPc=",
+  "Hash": "NXygmvIjCLiMydT24QXAl5CmSmI0zrwiK233qjkz15E=",
   "Source": "aspcore7mvc",
   "BasePath": "_content/aspcore7mvc",
   "Mode": "Default",
@@ -32,6 +32,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\santosh.rauniyar\\source\\repos\\aspcore7mvc\\aspcore7mvc\\wwwroot\\images\\a1.jpg",
+      "SourceId": "aspcore7mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\santosh.rauniyar\\source\\repos\\aspcore7mvc\\aspcore7mvc\\wwwroot\\",
+      "BasePath": "_content/aspcore7mvc",
+      "RelativePath": "images/a1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\a1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\santosh.rauniyar\\source\\repos\\aspcore7mvc\\aspcore7mvc\\wwwroot\\images\\a2.jpg",
+      "SourceId": "aspcore7mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\santosh.rauniyar\\source\\repos\\aspcore7mvc\\aspcore7mvc\\wwwroot\\",
+      "BasePath": "_content/aspcore7mvc",
+      "RelativePath": "images/a2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\a2.jpg"
     }
   ]
 }

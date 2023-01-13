@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\santosh.rauniyar\source\repos\aspcore7mvc\aspcore7mvc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/santosh.rauniyar/source/repos/aspcore7mvc/aspcore7mvc/Views/Guide/LandingPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VpZGVcTGFuZGluZ1BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/santosh.rauniyar/source/repos/aspcore7mvc/aspcore7mvc/Views/PersonLocation/AddLocation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uTG9jYXRpb25cQWRkTG9jYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
